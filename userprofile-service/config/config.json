@@ -1,0 +1,14 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "userprofile-service",
+    "serviceIP": "",
+    "servicePort": 8080,
+    "serviceType": "userprofile",
+    "serviceDescription": "userprofile login auth",
+    "redis": {
+      "url": "redis-15836.c11.us-east-1-2.ec2.cloud.redislabs.com",
+      "port": 15836
+    }
+  }
+}
