@@ -1,6 +1,30 @@
 # One-UserProfile-Microservice
 NodeJS Microservice built on HydraExpress. Uses Redis for service discovery, distributed messaging, message load balancing
 Backend for https://itunes.apple.com/us/app/scrooge-monthly-budgeting/id1280215067?mt=8
+For background on Microservices in Node please read docs on HydraExpress
+
+
+## Pre-installation
+
+It's recommended that [NVM](https://github.com/creationix/nvm) be used to manage NodeJS versions.
+The project includes an .nvmrc which specifies NodeJS 6.2.1
+
+## Installation
+
+```javascript
+$ cd userprofile-service
+$ nvm use
+$ npm install express-session mongoose passport errorhandler express-jwt mongoose-unique-validator passport-local stripe hydra-express
+
+$ npm install
+```
+
+## Trial
+
+```shell
+$ npm start
+```
+
 Endpoints
 
 REGISTER USER
