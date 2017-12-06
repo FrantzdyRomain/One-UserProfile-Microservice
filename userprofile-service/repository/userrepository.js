@@ -3,7 +3,7 @@ var User = mongoose.model('User');
 
 var UserRepository = {
     findByEmail: function(email) {
-        return db.User.findAll({
+        return User.findAll({
             where: {
                 email: email
             }
